@@ -12,7 +12,12 @@ import os
 llm =ChatOllama(
     model="gemma4:31b",
     base_url="https://ollama.com",
-    temperature=0
+    temperature=0,
+     client_kwargs={
+        "headers": {
+            "Authorization": f"Bearer {os.getenv('OLLAMA_API_KEY')}"
+        }
+    }
 )
 
 #1st Agent
