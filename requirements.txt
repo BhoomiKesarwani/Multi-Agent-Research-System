@@ -1,0 +1,32 @@
+
+# Core LangChain and LCEL
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+
+# Web Scraping
+beautifulsoup4
+requests
+
+# OCR using Tesseract
+pytesseract
+Pillow
+
+# PDF Processing
+pypdf
+
+# Environment Variables
+python-dotenv
+
+# Web Search Tool
+tavily-python
+
+# Data Processing
+pandas
+
+# User Interface
+streamlit
+
+# HTML Parsing
+lxml
