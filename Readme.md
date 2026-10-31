@@ -2,6 +2,10 @@
 
 A multi-agent pipeline that researches a topic and produces a reviewed report: **Search Agent → Reader Agent → Writer → Critic**. Runs in the terminal or through a Streamlit UI.
 
+##Live Demo
+
+[https://multi-agent-research-system-ybbul9qehrkljheicujmzi.streamlit.app/]
+
 ## Project Structure
 
 ```
